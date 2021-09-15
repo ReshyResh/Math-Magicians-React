@@ -1,3 +1,3 @@
 /* eslint-disable react/prop-types */
-const Button = ({ type, value }) => (<button type="button" className={type}>{value}</button>);
+const Button = ({ type, value, onclick }) => (<button type="button" className={type} onClick={onclick}>{value}</button>);
 export default Button;
