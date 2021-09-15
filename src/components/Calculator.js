@@ -21,7 +21,7 @@ class Calculator extends Component {
     }))
   };
   render() {
-    let result = 0;
+    let result = '0';
     this.state.cobj.next !== null ? result = this.state.cobj.next : result = this.state.cobj.total;
     return (
       <>
