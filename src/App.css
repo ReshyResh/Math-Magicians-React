@@ -42,3 +42,56 @@
 .double {
   grid-column: 1 / span 2;
 }
+
+.spinner-container {
+  width: 100%;
+  height: 100%;
+  background: rgba(170, 170, 170, 0.38);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.spinner {
+  width: 100px;
+  height: auto;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+}
+
+.active-link {
+  color: blue !important;
+}
+
+.navBar,
+.navlist {
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.navlist > li {
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.navlist > li > a,
+.navlist > li > a:visited {
+  text-decoration: none;
+  color: red;
+}
+
+.home-title {
+  padding-left: 50px;
+}
+
+.home-paragraph {
+  padding: 50px;
+  font-size: 1.4em;
+  width: 40%;
+  margin: auto;
+}

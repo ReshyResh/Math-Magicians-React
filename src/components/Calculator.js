@@ -10,9 +10,8 @@ const Calculator = () => {
 
   const calc = (n) => {
     let target = n.target.innerHTML;
-    setCobj(prevCobj => { 
-      return calculate(prevCobj, target);
-    })
+    setCobj(prevCobj => calculate(prevCobj, target))
+    console.log(calculate(cobj, target))
   }
 
   let result = '0';
@@ -20,7 +19,7 @@ const Calculator = () => {
 
   return (
     <>
-        <Title value="Math Magicians" />
+        <Title value="Let's do some math!" />
         <div className="container">
           <Results value={result} />
           <Button type="but digit" value='AC' onclick={calc} />
