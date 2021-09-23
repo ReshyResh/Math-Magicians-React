@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote renders correctly 1`] = `
+<div>
+  <p
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  />
+</div>
+`;

@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator renders correctly 1`] = `
+Array [
+  <h1
+    className="title-h1"
+  >
+    Let's do some math!
+  </h1>,
+  <div
+    className="container"
+  >
+    <p
+      className="result"
+    >
+      0
+    </p>
+    <button
+      className="but digit"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="but digit"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="but digit"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="but operator"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className="but digit"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="but digit"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="but digit"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="but operator"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      className="but digit"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="but digit"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="but digit"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="but operator"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      className="but digit"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="but digit"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="but digit"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="but operator"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="but digit double"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="but digit"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="but operator"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>,
+]
+`;

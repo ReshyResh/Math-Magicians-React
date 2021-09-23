@@ -11,7 +11,6 @@ const Calculator = () => {
   const calc = (n) => {
     let target = n.target.innerHTML;
     setCobj(prevCobj => calculate(prevCobj, target))
-    console.log(calculate(cobj, target))
   }
 
   let result = '0';
