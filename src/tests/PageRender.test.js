@@ -1,6 +1,6 @@
+import { fireEvent, render, screen } from '@testing-library/react';
 import App from '../App';
 import Calculator from '../components/Calculator';
-import { fireEvent, render, screen } from '@testing-library/react';
 
 describe('Components rendering correctly', () => {
   it('Homepage rendering', () => {
