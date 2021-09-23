@@ -12,6 +12,10 @@ A Microverse project to get started with the React framework.
   - CSS
   - Javascript
 
+# Live Demo
+Click [here](https://reshyresh.github.io/Math-Magicians-React/)
+
+
 # Installation 
 
 In case you want the project to run on your local machine and not the live demo:
